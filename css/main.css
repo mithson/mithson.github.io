@@ -3648,7 +3648,7 @@ footer .row {
 @media only screen and (max-width: 500px) {
     .footer-subscribe #mc-form input[type="email"] {
         padding: 1.2rem 20px 1.2rem;
-        background: rgba(0, 0, 0, 0.1);
+        background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
         text-align: center;
     }
     .footer-subscribe #mc-form input[type=submit] {

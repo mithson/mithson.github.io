@@ -41,14 +41,14 @@
 	box-sizing: border-box;
 }
 button:hover,a {
-	cursor: url('/mithson.github.io/assets/img/image-pointer.png'), auto;
+	cursor: url('/assets/img/image-pointer.png'), auto;
 }
 
 
 
 
 html {
-	cursor: url('/mithson.github.io/assets/img/image-cursor.png'), pointer;
+	cursor: url('/assets/img/image-cursor.png'), pointer;
 
 	font-family: sans-serif;
 	line-height: 1.15;

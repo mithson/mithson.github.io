@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import "compass/css3";
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 :root {
 	--blue: #007bff;

@@ -11278,3 +11278,204 @@ section.resume-section .resume-section-content {
 	font-size: 14px;
 	transition: 0.5s;
 }
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+	  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  .socialCard {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+	gap: 10px;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgb(44, 44, 44);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	transition-duration: 0.3s;
+  }
+  /* linedin */
+  .containerOne:hover {
+	background-color: #0072b1;
+	transition-duration: 0.3s;
+  }
+  /* leetcode */
+  .containerTwo:hover {
+	background-color: #f5a638;
+	transition-duration: 0.3s;
+  }
+  /* github */
+  .containerThree:hover {
+	background-color: #000000;
+	transition-duration: 0.3s;
+  }
+  /* codechef */
+  .containerFour:hover {
+	background-color: #8b4513;
+	transition-duration: 0.3s;
+  }
+  /* codeforces */
+  .containerFive:hover {
+	background-color: #1da1f2;
+	transition-duration: 0.3s;
+  }
+  /* instagram */
+  .containerSix:hover {
+	background-color: #2E8D46;
+	transition-duration: 0.3s;
+  }
+  .socialContainer:active {
+	transform: scale(0.9);
+	transition-duration: 0.3s;
+  }
+  .socialSvg {
+	width: 20px;
+  }
+  .codechefSvg,
+  .geeksforgeeksSvg {
+	width: 24px;
+  }
+  .socialSvg path {
+	fill: rgb(255, 255, 255);
+  }
+  .socialContainer:hover .socialSvg {
+	animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+	0% {
+	  transform: translateY(-50px);
+	  opacity: 0;
+	}
+  
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+  .step {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+  }
+  
+  .v-stepper {
+	position: relative;
+  }
+  
+  .step .circle {
+	background-color: white;
+	border: 3px solid gray;
+	border-radius: 100%;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+  }
+  
+  .step .line {
+	top: 21px;
+	left: 11px;
+	height: 100%;
+	position: absolute;
+	border-left: 3px solid #007bff;
+  }
+  
+  .step.current .circle {
+	visibility: visible;
+	background-color: #007bff;
+	border-color: #007bff;
+  }
+  
+  .step.completed .circle {
+	visibility: visible;
+	border-color: #007bff;
+  }
+  
+  .step:last-child .line {
+	border-left: 3px solid white;
+	z-index: -1;
+  }
+  
+  .content {
+	width: 100%;
+	margin-left: 15px;
+  }
+  
+  .c-go-top {
+	background: none repeat scroll 0 0 padding-box #007bff;
+	bottom: 20px;
+	width: 40px;
+	font-size: larger;
+	text-align: center;
+	border: 1px solid #007bff;
+	border-radius: 4px;
+	color: #eee;
+	display: none;
+	font-size: 12px;
+	opacity: 0.8;
+	padding: 10px;
+	position: fixed;
+	right: 3%;
+	text-decoration: none;
+	z-index: 999;
+  }
+  
+  .c-go-top:hover,
+  .c-go-top:focus,
+  .c-go-top:active,
+  .c-go-top:visited {
+	color: #fff;
+	outline: 0;
+	display: block;
+	text-decoration: none;
+  }
+  
+  /* .photogrid {
+	width: 100%;
+	height: 100%;
+	padding: 0.2rem;
+  }
+  
+  .photogrid .photocard {
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: 0.2s;
+  }
+  .photogrid .photocard:hover {
+	transform: translateY(-0.5%);
+	box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+  }
+  .photogrid .photocard__img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+	.photogrid .photocard__img {
+	  padding-top: 0.5rem;
+	  padding-bottom: 0.5rem;
+	}
+  } */

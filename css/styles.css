@@ -11445,6 +11445,11 @@ body {
 	text-decoration: none;
   }
   
+.socialContainer.containerSix:hover {
+    background-color: #000; /* black background */
+    color: white; /* keep icon white */
+}
+
   /* .photogrid {
 	width: 100%;
 	height: 100%;
